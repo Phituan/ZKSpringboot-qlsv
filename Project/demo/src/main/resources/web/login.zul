@@ -1,0 +1,47 @@
+<zk>
+    <window title="FPT University" border="normal" width="500px" height="500px" position="center" mode="overlapped">
+        <tabbox>
+            <tabs>
+                <tab label="Login"/>
+                <tab label="Register"/>
+            </tabs>
+            <tabpanels>
+                <tabpanel>
+                    <div align="center" style="padding: 10px">
+                        <hbox align="center" hflex="1">
+                            <a href="http://www.zkoss.org/">
+                                <image src="/images/logo.png" width="100px" />
+                            </a>
+                        </hbox>
+                        <vbox>
+                            <textbox placeholder="Email"/>
+                            <textbox type="password" placeholder="Password"/>
+                        </vbox>
+                        <vbox style="padding-top: 15px">
+                            <button  label="Login"></button>
+                        </vbox>
+                    </div>
+                </tabpanel>
+                <tabpanel>
+                    <div align="center">
+                        <hbox align="center" hflex="1">
+                            <a href="http://www.zkoss.org/">
+                                <image src="/images/logo.png" width="100px" />
+                            </a>
+                        </hbox>
+                        <vbox>
+                            <textbox placeholder="Full name"/>
+                            <textbox placeholder="Email"/>
+                            <textbox type="password" placeholder="Password"/>
+                            <textbox type="password" placeholder="Confirm password"/>
+                            <textbox placeholder="Address"/>
+                        </vbox>
+                        <vbox style="padding-top: 15px">
+                            <button  label="Register"></button>
+                        </vbox>
+                    </div>
+                </tabpanel>
+            </tabpanels>
+        </tabbox>
+    </window>
+</zk>
